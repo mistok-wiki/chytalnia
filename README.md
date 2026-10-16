@@ -11,8 +11,8 @@
 ## Поставити
 
 ```bash
-git clone https://github.com/OuFinx/mistok-chytalnia.git
-ln -s "$PWD/mistok-chytalnia/skills/metryky" ~/.claude/skills/metryky
+git clone https://github.com/mistok-wiki/chytalnia.git
+ln -s "$PWD/chytalnia/skills/metryky" ~/.claude/skills/metryky
 ```
 
 Символьне посилання зручніше за копію: `git pull` оновлює скіл на місці. Так само для решти скілів. Далі вони підхоплюються самі, коли ви просите прочитати скан або звірити текст із джерелами.
